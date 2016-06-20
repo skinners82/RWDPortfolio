@@ -20,7 +20,7 @@
 }
 
 html { 
-  background: url(../img/cover.jpg) no-repeat center center fixed; 
+  background: url(../img/Elegant_Background-7.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -47,6 +47,62 @@ html {
 	padding: 70px;
 	
 }
+
+
+
+/* ******************************************
+	Media Queries for Print
+****************************************** */
+ @media print and (max-width: 8.5in){
+
+  body {
+      color: #000;
+      background: #fff;
+   }
+
+   nav {
+   	display: none;
+   }
+
+ 	.top-header  {
+ 		color:black;
+ 		padding: 0;
+
+ 	}
+
+ 	.top-header-content {
+ 		height: auto;
+ 		padding: 0;
+ 	}
+
+ 	.circular {
+ 		visibility: hidden;
+ 		width: 0;
+ 		height: 0;
+ 		padding-top: 0;
+ 		margin-top: 0;
+ 		padding-bottom: 0;
+ 	}
+
+ 	.projects {
+ 		float: left;
+ 		width: 45%;
+ 		padding-top: 0;
+ 	}
+
+ 	.aboutMeContent {
+	width: 100%;
+	padding: 30;
+	height:auto;
+
+}
+
+
+
+ }
+
+
+
 
 
 

@@ -136,6 +136,23 @@ textarea {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+
+
+
+/* ******************************************
+	Media Queries for Screen wider than 720px
+****************************************** */
+
+@media screen and (min-width: 720px){
+
+		
+
+		#portfolio article,
+		#resume article {
+			float: left;
+			width: 33%;
+		}
+	}
 }
 
 /* ******************************************
