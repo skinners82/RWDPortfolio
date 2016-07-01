@@ -21,11 +21,7 @@ html, body {
 	padding-top: -15px;
 }
 
-.outer-wrapper {
 
-	width: 100%;
-	margin: 0 auto;
-}
 	
 #nav, #masthead, #colophon {
 	margin: 0;
@@ -39,7 +35,6 @@ html, body {
      margin: 0 auto;
    	 width: 90%;
      
-
 }
 
 .aboutMe {
@@ -117,8 +112,9 @@ margin-top: -10px;
 
 #projects-container {
 	margin: 0 auto;
-	width: 85%;
+	width: 80%;
 }
+
 
 .projects {
 	/*width: 100%;*/
@@ -128,6 +124,7 @@ margin-top: -10px;
 	margin-left: auto;
 	text-align: center;
 	float: left;
+	width: 100%;
 	
 }
 
@@ -191,9 +188,10 @@ margin-top: -10px;
 
  	.projects {
  		float: left;
- 		width: 45%;
+ 		width: 95%;
  		padding-top: 0;
  	}
+
 
  	.aboutMeContent {
 	width: 100%;
@@ -202,9 +200,11 @@ margin-top: -10px;
 
 }
 
+#resume{
+	padding-top: 20px;
+}
 
 
- }
 
 
 
