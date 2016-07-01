@@ -3,7 +3,11 @@
 	<head>
 		<meta charset="UTF-8">
 		<title>Stephanie K. Skinner</title>
+		<link type= "text/css" rel="stylesheet" href="css/normalize.css"/>
 		<link rel="stylesheet" href="css/hwstyle.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
+
 			<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->  
@@ -13,7 +17,9 @@
 	</head>
 
 	<body lang="en">
-		<header class="top-header">
+	
+		<div class="container-nav">
+			<section id="nav">
 			<nav class="top-nav">
 				<ul>
 					<li>Home</li>
@@ -21,7 +27,11 @@
 					<li>Contact</li>
 				</ul>
 			</nav>
-			<div class="top-header-content"> 
+		</section>
+	</div>
+	<div class="container-header">
+		<header class="top-header" id="masthead">
+ 			<div class="top-header-content"> 
 				<div class="circular" style= 'background-image: url(img/profileThumb.jpg)'>
 
 				</div>
@@ -29,22 +39,32 @@
 				<p> I am a multimedia producer in the DC area.</p>
 			</div>
 		</header>
+	</div>
+
+		<div id="content">
 <!--below is section 1 opening tag-->
 		<section class="aboutMe">
-			<div class="aboutMeContent">
-				<h2>A title will go here</h2>
+			
+				<h2>A Title Will Go here</h2>
+			<!--<div class="aboutMeContent"> -->
+				
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			</div>
-
+			<!--</div> -->
+		
 		</section>
+
+	</div>
 <!--above is section 1 closing tag-->
 
 <!--below is section 2 opening tag-->
+	<div id="projects-container">
+
 		<section class="projects">
 			<div>
 				<h2>Portfolio</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim </p>
 			</div>
+	
 
 			<article>
 				<div class="project-wrapper">
@@ -59,6 +79,9 @@
 
 			</article>
 		</section>
+
+	</div>
+
 
 
 <!--above is section 2 closing tag-->
@@ -118,8 +141,11 @@
 			</div>
 		</section>
 <!--above is section 3 closing tag-->
+	
 
-	<footer>
+
+	<footer id="colophon">
+		<p>2016 All rights reserved.</p>
 	</footer>
 
 
